@@ -60,10 +60,10 @@ export default function LandingPage() {
           transition={{ delay: 0.5, duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
-            AEGIS-Ω
+           « فـراتر از من »
           </h1>
           <p className="text-xl md:text-2xl mt-2 text-gray-300 font-light">
-          ((  فراتر از من ))
+          (( ⚠️ هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین زندگی گرفتار شده اند ))
           </p>
 
           <motion.div
