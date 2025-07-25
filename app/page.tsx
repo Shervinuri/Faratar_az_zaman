@@ -102,7 +102,7 @@ export default function LandingPage() {
           onClick={handleEnterClick}
           disabled={isEntering}
         >
-          Enter the Quantum Realm
+          ورود به اکوسیستم فراترازمن
         </motion.button>
       </div>
     </div>
