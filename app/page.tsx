@@ -62,7 +62,7 @@ export default function LandingPage() {
           <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
            « فـراتر از من »
           </h1>
-          <p style={{ fontSize: "5px", color: "#fff", whiteSpace: "nowrap" }}>
+          <p style={{ fontSize: "10px", color: "#fff", whiteSpace: "nowrap" }}>
   هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین گرفتارند ⚠️
 </p>
 
