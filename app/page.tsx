@@ -60,11 +60,9 @@ export default function LandingPage() {
           transition={{ delay: 0.5, duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
-           « فـراتر از من »
+            « فـراتر از من »
           </h1>
-          <p style={{ fontSize: "5px", color: "#fff", whiteSpace: "nowrap" }}>
-  هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین گرفتارند ⚠️
-</p>
+          {/* The warning message has been moved from here to the footer section below */}
 
           <motion.div
             className="flex flex-wrap justify-center gap-4 mt-4"
@@ -79,7 +77,7 @@ export default function LandingPage() {
         </motion.div>
 
         <motion.button
-          className={`mt-12 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-600 via-purple-600 to-pink-600 text-white text-lg font-semibold 
+          className={`mt-12 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-600 via-purple-600 to-pink-600 text-white text-lg font-semibold  
             shadow-lg hover:shadow-xl transition-all duration-300 ${isEntering ? "opacity-0" : "opacity-100"}`}
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{
@@ -104,6 +102,13 @@ export default function LandingPage() {
         >
           ورود به اکوسیستم فراترازمن
         </motion.button>
+      </div>
+
+      {/* Footer Section */}
+      <div className="absolute bottom-0 left-0 right-0 p-4 text-center">
+        <p className="text-xs text-gray-400">
+          هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین زندگی گرفتارند ⚠️
+        </p>
       </div>
     </div>
   )
