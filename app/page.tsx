@@ -63,7 +63,7 @@ export default function LandingPage() {
            « فـراتر از من »
           </h1>
           <p style={{ fontSize: "5px", color: "#fff", whiteSpace: "nowrap" }}>
-  (( ⚠️ هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین زندگی گرفتار شده اند ))
+  هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین گرفتارند ⚠️
 </p>
 
           <motion.div
