@@ -62,9 +62,9 @@ export default function LandingPage() {
           <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">
            « فـراتر از من »
           </h1>
-          <p className="text-xl md:text-2xl mt-2 text-gray-300 font-light">
-          (( ⚠️ هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین زندگی گرفتار شده اند ))
-          </p>
+          <p style={{ fontSize: "12px", color: "#fff", whiteSpace: "nowrap" }}>
+  (( ⚠️ هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین زندگی گرفتار شده اند ))
+</p>
 
           <motion.div
             className="flex flex-wrap justify-center gap-4 mt-4"
