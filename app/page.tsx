@@ -107,7 +107,7 @@ export default function LandingPage() {
       {/* Footer Section */}
       <div className="absolute bottom-0 left-0 right-0 p-4 text-center">
         <p className="text-xs text-gray-400">
-          ⚠️  هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین زندگی گرفتارند 
+        هشدار: حاوی مطالب آزاردهنده برای افرادی که به روتین زندگی گرفتارند  ⚠️
         </p>
       </div>
     </div>
